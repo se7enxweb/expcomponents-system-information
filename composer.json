@@ -37,12 +37,16 @@
         ]
     },
     "description": "Provides access to common system variables, such as CPU type and speed, and the available amount of memory.",
-    "homepage": "https://github.com/zetacomponents",
+    "homepage": "https://github.com/se7enxweb/expcomponents-system-information",
     "license": "Apache-2.0",
-    "name": "zetacomponents/system-information",
+    "name": "se7enxweb/expcomponents-system-information",
     "type": "library",
     "require": {
-        "zetacomponents/base": "~1.8"
+        "php": ">=7.1",
+        "se7enxweb/expcomponents-base": "~1.8"
+    },
+    "replace": {
+        "zetacomponents/system-information": "self.version"
     },
     "require-dev": {
         "phpunit/phpunit": "~9.0",
